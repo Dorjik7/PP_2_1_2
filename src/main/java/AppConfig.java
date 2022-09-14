@@ -15,7 +15,7 @@ public class AppConfig {
         @Bean(name = "cat")
         public Cat getCat() {
             Cat cat = new Cat();
-            cat.setCatVoice("Hello Cat");
+            cat.catVoice();
             return cat;
     }
 }
