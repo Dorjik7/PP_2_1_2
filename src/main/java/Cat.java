@@ -1,15 +1,10 @@
 public class Cat {
-    private String catVoice;
-
-    public String getCatVoice() {
-        return catVoice;
+    private String message;
+    public String getMessage() {
+        return message;
     }
 
-    public void setCatVoice(String catVoice) {
-        this.catVoice = catVoice;
+    public void setMessage(String message) {
+        this.message = message;
     }
-    public void catVoice(){
-    System.out.println("Мяу-мяу");
-}
-
 }
